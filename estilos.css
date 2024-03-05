@@ -30,19 +30,21 @@ header{
     background-color:  rgb(52, 56, 121) !important;
     font-size: 25px;
     margin-top: 20px;
-
+    z-index: 1;
 }
 
 main{
-    height: 100vh;
-    width: 100%;
     background-image: url(imag/istockphoto-1291486920-612x612.jpg);
     background-repeat:round;
 }
 
+.inicio{
+    height: 100vh;
+}
+
 body{
     position: relative;
-    min-height: 100vh;
+    min-height: 100dvh;
 }
 
 footer{
@@ -83,6 +85,7 @@ h2{
     background-size:cover;
     background-position: center;
     height: 250px; 
+    margin-bottom: 30px;
 }
 .DescNos h3{
     color: black;
@@ -92,9 +95,6 @@ h2{
 
 /* aca termina nosotros */
 /* aca empieza productos */
-.prdocarrusel{
-    height: 150vh;
-}
 .carousel-item{
     height: 350px;
     width: 80%;
@@ -112,8 +112,9 @@ h2{
     background-image: url(imag/prod4.jpg);
     background-size: cover;
     background-position: center;
-    height: 250px !important;
+    height: 220px !important;
     margin-top: 20px;
+    margin-left: 10px;
 }
 
 .DescProd2{
@@ -127,8 +128,10 @@ h2{
     background-image: url(imag/prod9.jpeg);
     background-size:cover;
     background-position:top;
-    height: 250px !important;
+    height: 220px !important;
     margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
 }
 /* aca termina productos */
 /* aca empieza estilos */
@@ -153,5 +156,5 @@ h2{
 }
 
 .cont{
-    padding-top: 40px;
+    padding-top: 40px; 
 }
