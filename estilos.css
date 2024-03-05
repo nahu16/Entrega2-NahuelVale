@@ -72,20 +72,36 @@ h2{
 .DescNos{
     color: black;
     font-size: 15px;
-    height: 270px !important;
+    height: 250px !important;
+    border: solid 1px rgba(0, 0, 0, 0.438);
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.DescNos2{
+    color: black;
+    font-size: 15px;
+    height: 250px !important;
+    border: solid 1px rgba(0, 0, 0, 0.438);
+    margin-top: 30px;
+    margin-left: 20px;
 }
 .imagen{
     background-image: url(imag/Armado.jpg);
     background-size: cover;
     background-position: center;
-    height: 250px;
+    height: 230px;
+    width: 300px;
+    margin-left: 20px;
 } 
 .ImagenNos{
     background-image: url(imag/Armando2.jpeg);
     background-size:cover;
     background-position: center;
-    height: 250px; 
+    height: 230px; 
+    width: 350px;
+    margin-left: 20px;
     margin-bottom: 30px;
+    margin-top: 30px;
 }
 .DescNos h3{
     color: black;
