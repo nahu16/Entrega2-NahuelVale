@@ -1,0 +1,176 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Protest+Riot&display=swap');
+/* font-family: 'Dancing Script', cursive; */
+/* font-family: 'Protest Riot', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Aca empieza el index */
+header{
+    // background-color: rgb(52, 56, 121);
+    background-image: linear-gradient(rgb(52, 56, 121),rgb(76, 79, 128), rgb(255, 255, 255));
+    height: 100px;
+    width: 100%;
+    color: white;
+}
+
+.logo{  
+    float: left;
+    font-size: 60px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 2px 2px 5px black ;
+}
+
+.navbar{
+    color: white !important;   
+    background-color:  transparent !important;
+    text-shadow: 2px 2px 5px black ;
+    font-size: 25px;
+    margin-top: 20px;
+    z-index: 1;
+}
+
+main{
+    background-image: url(imag/istockphoto-1291486920-612x612.jpg);
+    background-repeat:round;
+    width: 100%;
+    height: auto;
+}
+
+.inicio{
+    height: 80vh;
+    
+}
+
+body{
+    position: relative;
+    min-height: 100dvh;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(52, 56, 121);
+    color: black;
+    font-size: 20px;
+    position:absolute;
+    width: 100%;
+    bottom: 0px !important; 
+    height: 80px;
+    &footer .redes i{
+        font-size: 30px;
+        letter-spacing: 10px;
+}}
+/* aca termina el index */
+/* aca empieza Nosotros */
+
+h2{
+    font-size: 58px;
+    color: rgb(235, 167, 156);
+    text-align: center;
+    font-family: 'Protest Riot', sans-serif;
+    text-shadow: 1px 1px 5px rgb(112, 98, 98) ;
+}
+
+.card {
+    border-color: rgb(235, 167, 156);
+}
+
+h3{
+    color: rgb(52, 56, 121);
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+.tutorial{
+    margin-left: 40%;
+}
+h4{
+    color: rgb(52, 56, 121);
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+
+/* aca termina nosotros */
+/* aca empieza productos */
+.carousel-item{
+    height: 400px;
+    width: 50%;
+    margin-left: 25%;
+}
+.DescProd{
+    color: black;
+    font-size: 20px;
+    height: 100px !important;
+    margin-top: 20px;
+
+}
+.imagenProd{
+    background-image: url(imag/prod4.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    height: 320px !important;
+    width: 400px !important;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.DescProd2{
+    color: black;
+    font-size: 20px;
+    height: 100px !important;
+    margin-top: 20px;
+
+}
+.imagenProd2{
+    background-image: url(imag/prod9.jpeg);
+    object-fit: cover;
+    background-size:cover;
+    background-position:top;
+    height: 320px !important;
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+/* aca termina productos */
+/* aca empieza estilos */
+.card{
+    background-color: rgba(82, 80, 80, 0.363);
+    margin-top: 10px;
+}
+.card:hover{
+    transform: scale(1.09);
+    transition: all 1.0s;
+    object-fit: cover;
+}
+/* aca termina estilos */
+/* aca empieza ubicación */
+
+.contactos{
+    margin-left: 10px;
+}
+
+.contactos h2{
+    text-align: left;
+}
+.ubic{
+    color: black;
+    font-size: 20px;
+    height: 20px !important;
+    margin-top: 20px;
+}
+.contac label{
+    padding: 5px;
+}
+
+.cont{
+    padding-top: 40px; 
+}
